@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;900&display=swap');
+
+body{
+	font-family: 'Montserrat', sans-serif;
+}
+.navbar-brand img{
+	width: 150px;
+}
+
+header{
+	background:#37517E;
+	background-image: url(../images/banner.png);
+	background-repeat:no-repeat;
+	background-size: contain;
+	background-position: right;
+}
+.blue{
+	background: #47B2E4;
+	color: #fff;
+}
+header h1{ 
+	font-size: 44px;
+	font-weight: 700;
+    line-height:1.6; }
+header p{ 
+	line-height:1.8;
+    font-weight: 500;
+   
+    margin:30px 0;
+}
+header .btn{
+	line-height:1.8;
+    font-weight: 500;
+}
+header .btn: hover{
+	box-shadow: 0 0 0 rgba(0,0,0) !important;
+}
+.banner a i{
+	font-size: 40px;
+	color: #fff;
+	margin-right: 10px;
+
+} 
+.banner a {
+	display: inline-flex;
+	align-items: center;
+	color: #fff;
+}
+
+
+@media (max-width:1399px) {
+	header{
+		background-size: 600px;
+	}
+
+}
+@media (max-width:1199px) {
+	header{
+		background-size: 500px;
+	}
+
+	header h1{
+		    font-size: 38px;
+           line-height: 1.7;
+
+	}
+	header p{
+		 font-size: 15px;
+         margin: 15px 0; 
+		line-height: 1.7;
+	}
+	.banner a{
+		padding-top:15px !important;
+		padding-bottom:10px !important; 
+	}
+	.banner a i{
+        font-size: 30px;
+	}
+	.partner .row div{
+	    padding: 1rem!important;
+    }
+}	
+   
+
+@media (max-width:991px) {
+	header{
+		background-size: 380px;
+	}
+	.banner{
+		padding-top: 100px;
+		padding-bottom: 100px;
+	}
+	header h1{
+		font-size: 32px;
+          
+    }
+    header p {
+    font-size: 14px;
+    }
+    .partner .row div{
+	    padding: 1rem!important;
+    }
+    .p-5 {
+    padding: 1rem!important;
+    }
+
+}
+@media (max-width:767px) {
+	header{
+		background-image: url();
+	}
+	.banner{
+		text-align: center;
+	}
+	header h1{
+		font-size: 42px;
+    }
+    .partner .row div{
+	    padding:  10px !important;
+    }
+    .p-5 {
+    padding: 1rem!important;
+    }
+    .py-5 {
+    padding-top: 1rem!important;
+    padding-bottom: 1rem!important;
+}
+}
+@media (max-width:575px) {
+	header h1{
+		font-size: 28px;
+		line-height: 1.4;
+         }
+	.py-5 {
+    padding-top: 1rem!important;
+    padding-bottom: 1rem!important;
+}
+}
